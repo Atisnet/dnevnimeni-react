@@ -1,0 +1,15 @@
+.viewport {
+    padding-left: 250px;
+    padding-top: 100px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+
+  @media only screen and (max-width: 599px) {
+    .viewport {
+        padding-left: 20px;
+    }
+  }

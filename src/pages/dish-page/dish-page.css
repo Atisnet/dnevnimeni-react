@@ -1,0 +1,22 @@
+.quantity,
+.price {
+  width: 23%;
+}
+
+.quantity {
+  display: flex;
+}
+
+.arrow {
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.value {
+  margin: 0 10px;
+}
+
+.add-to-cart-container{
+    font-size: 200%;
+    margin-top: 1%;
+}

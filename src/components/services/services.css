@@ -1,0 +1,27 @@
+.services-list li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.2em;
+    margin: 0 20px;
+    text-align: center;
+    margin-left: -20px;
+    padding: 20px;
+  }
+
+  .panel-details {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .filter-services-btn {
+      width: 10%;
+      margin: 20px 50% 0 50% !important;
+      transform: translate(-50%, -50%);
+  }
+
+  .number-of-services {
+    color: #E63B37;
+    font-weight: 600;
+    margin-left: -5px;
+    padding: 3px;
+  }
