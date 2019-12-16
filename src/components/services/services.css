@@ -25,3 +25,8 @@
     margin-left: -5px;
     padding: 3px;
   }
+
+  .service-paragraph {
+    width: 200px;
+    text-align: justify;
+  }

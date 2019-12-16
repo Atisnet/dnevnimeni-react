@@ -39,6 +39,8 @@ const useStyles = makeStyles(theme => ({
     display: "flex",
     flexDirection: "column",
     alignItems: 'center',
+    marginTop: -50,
+    paddingBottom: 10
   },
   bigAvatar: {
     width: 60,
@@ -91,10 +93,12 @@ const SideMenu = props => {
   const drawer = (
     <div>
       <div className={classes.toolbar} />
+      <Link to="/settings">
       <div className={classes.user}>
       <Avatar alt="Remy Sharp" src="https://via.placeholder.com/150" className={classes.bigAvatar} />
       <Typography>Ime Prezime</Typography>
       </div>
+      </Link>
       <Divider />
       <List>
         <Link to="/">
