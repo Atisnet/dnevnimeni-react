@@ -8,9 +8,10 @@ import OrderHistory from "./pages/order-history/order-history";
 import Settings from "./pages/settings/settings";
 import RestaurantPage  from "./pages/restaurant-page/restaurant-page";
 import CategoryPage from "./pages/category-page/category-page";
-import DishPage from "./pages/dish-page/dish-page"
-import SideMenu from './components/sidemenu/sidemenu'
-import CheckoutPage from './pages/checkout/checkout'
+import DishPage from "./pages/dish-page/dish-page";
+import SideMenu from './components/sidemenu/sidemenu';
+import CheckoutPage from './pages/checkout/checkout';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/restaurantpage/categorypage" exact component={CategoryPage} />
         <Route path="/restaurantpage/dishpage" exact component={DishPage} />
         <Route path="/checkout" exact component={CheckoutPage} />
+        <Route path="/signin" exact component={SignInAndSignUpPage} />
       </Switch>
     </div>
   );

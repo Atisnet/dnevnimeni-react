@@ -41,7 +41,7 @@ const useStyles = makeStyles(theme => ({
     margin: 10,
     flexBasis: 100
   },
-  molimte: {
+  form: {
     marginLeft: "auto",
     marginRight: "auto"
   }
@@ -67,7 +67,7 @@ const Settings = () => {
       </div>
       <br />
       <Grid container>
-        <form noValidate autoComplete="off" className={classes.molimte}>
+        <form noValidate autoComplete="off" className={classes.form}>
           <TextField
             id="phone"
             label="Phone"
